@@ -1,0 +1,26 @@
+{
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.fontSize": 14,
+    "workbench.iconTheme": "material-icon-theme",
+    "gopls": {
+    
+    },
+    "workbench.editor.enablePreview": false,
+    "go.toolsManagement.autoUpdate": true,
+    "debug.console.fontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "workbench.fontAliasing":"antialiased",
+    "markdown.preview.fontSize": 14,
+    "workbench.colorTheme": "Blink (rainglow)",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "cascadia code",
+    "terminal.integrated.fontFamily": "cascadia code",
+    "java.debug.settings.console": "internalConsole",
+    "editor.tokenColorCustomizations": {
+        "comments": "#73b37d",
+        "[Pastel Soft Dark]": {
+            "comments": "#73b37d"
+        }
+    },
+    "editor.fontLigatures": true,
+}
