@@ -1,26 +1,89 @@
 {
-    "workbench.editor.untitled.hint": "hidden",
+    "workbench.colorTheme": "Atom One Dark",
+    "editor.fontFamily": "'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace",
     "editor.fontSize": 14,
-    "workbench.iconTheme": "material-icon-theme",
-    "gopls": {
-    
-    },
-    "workbench.editor.enablePreview": false,
-    "go.toolsManagement.autoUpdate": true,
-    "debug.console.fontSize": 14,
-    "terminal.integrated.fontSize": 14,
-    "workbench.fontAliasing":"antialiased",
-    "markdown.preview.fontSize": 14,
-    "workbench.colorTheme": "Blink (rainglow)",
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "cascadia code",
-    "terminal.integrated.fontFamily": "cascadia code",
-    "java.debug.settings.console": "internalConsole",
+    "editor.lineHeight": 22,
+    "editor.letterSpacing": 0.5,
+    "editor.fontLigatures": true,
     "editor.tokenColorCustomizations": {
-        "comments": "#73b37d",
-        "[Pastel Soft Dark]": {
-            "comments": "#73b37d"
-        }
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword.control",
+                    "storage.type",
+                    "storage.modifier"
+                ],
+                "settings": {
+                    "foreground": "#C792EA"
+                }
+            },
+            {
+                "scope": [
+                    "variable",
+                    "string",
+                    "meta.embedded"
+                ],
+                "settings": {
+                    "foreground": "#FFFFFF"
+                }
+            },
+            {
+                "scope": [
+                 
+                    "string"
+                 
+                ],
+                "settings": {
+                    "foreground": "#63a70a"
+                }
+            },
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#757575"
+                }
+            },
+            {
+                "scope": [
+                    "constant.numeric",
+                    "constant.language"
+                ],
+                "settings": {
+                    "foreground": "#B3E5FC"
+                }
+            },
+            {
+                "scope": "punctuation",
+                "settings": {
+                    "foreground": "#FFFFFF"
+                }
+            },
+            {
+                "scope": [
+                    "entity.name.type",
+                    "entity.name.class"
+                ],
+                "settings": {
+                    "foreground": "#FFCB6B"
+                }
+            },
+            {
+                "scope": [
+                    "storage",
+                    "storage.type"
+                ],
+                "settings": {
+                    "foreground": "#C3E88D"
+                }
+            }
+        ]
     },
-    "editor.fontLigatures": true
+    "editor.renderWhitespace": "boundary",
+    "editor.minimap.enabled": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.smoothScrolling": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "redhat.telemetry.enabled": false
 }
