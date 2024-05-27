@@ -14,27 +14,24 @@
                     "storage.modifier"
                 ],
                 "settings": {
-                    "foreground": "#C792EA"
+                    "foreground": "#b671e3"
                 }
             },
             {
                 "scope": [
                     "variable",
-                    "string",
                     "meta.embedded"
                 ],
                 "settings": {
-                    "foreground": "#FFFFFF"
+                    "foreground": "#a9abac"
                 }
             },
             {
                 "scope": [
-                 
                     "string"
-                 
                 ],
                 "settings": {
-                    "foreground": "#63a70a"
+                    "foreground": "#77a43c"
                 }
             },
             {
@@ -49,13 +46,13 @@
                     "constant.language"
                 ],
                 "settings": {
-                    "foreground": "#B3E5FC"
+                    "foreground": "#1e9ba8"
                 }
             },
             {
                 "scope": "punctuation",
                 "settings": {
-                    "foreground": "#FFFFFF"
+                    "foreground": "#a9abac"
                 }
             },
             {
@@ -64,7 +61,7 @@
                     "entity.name.class"
                 ],
                 "settings": {
-                    "foreground": "#FFCB6B"
+                    "foreground": "#b6bdc0"
                 }
             },
             {
@@ -85,5 +82,6 @@
     "editor.scrollBeyondLastLine": false,
     "editor.cursorStyle": "line",
     "editor.cursorWidth": 2,
-    "redhat.telemetry.enabled": false
+    "redhat.telemetry.enabled": false,
+    "workbench.iconTheme": "material-icon-theme"
 }
